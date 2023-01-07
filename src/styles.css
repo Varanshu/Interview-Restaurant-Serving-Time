@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.detail-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 25px 10px;
+}
+
+.detail-container {
+  margin-top: 40px;
+}
+
+.out-of-stock {
+  background-color: red;
+}
